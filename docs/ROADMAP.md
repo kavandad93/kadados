@@ -2,12 +2,16 @@
 
 ## Milestone 1 — Bootable kernel
 - [ ] x86_64 boot
+- [ ] Headless VPS target
+- [ ] SSH-first userspace architecture
 - [ ] Kernel entry point
 - [ ] Text console
 - [ ] Keyboard input
 - [ ] Basic memory setup
 
 ## Milestone 2 — Kadad shell
+- [ ] SSH server (`sshd`)
+- [ ] SSH session → Kadad shell
 - [ ] Prompt: `USER@Kadad--PCNAME /DIR/ >_`
 - [ ] Cursor blink
 - [ ] Command parser
