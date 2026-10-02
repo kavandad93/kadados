@@ -14,7 +14,7 @@ OBJS := $(BUILD)/boot.o $(BUILD)/kernel.o $(BUILD)/console.o $(BUILD)/keyboard.o
 
 .PHONY: all iso run clean
 
-all: iso
+all: iso raw
 
 $(BUILD):
 	mkdir -p $(BUILD)
